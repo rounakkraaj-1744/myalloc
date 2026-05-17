@@ -25,6 +25,8 @@
       +----------------------+
 ```
 
+---
+
 # Memory Layout
 ```plaintext
 +------------------------------------------------+
@@ -32,7 +34,7 @@
 +------------------------------------------------+
 ```
 
-# Each Node Contains:
+#### Each Node Contains:
 ```plaintext
 [Block Metadata][Actual User Memory]
 ```
