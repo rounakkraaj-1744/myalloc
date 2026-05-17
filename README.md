@@ -1,3 +1,5 @@
+# High Level Architecture
+
 ```plaintext
                     +-------------------+
                     |     myalloc()     |
@@ -21,4 +23,16 @@
       +----------------------+
       | Memory Pool Manager  |
       +----------------------+
+```
+
+# Memory Layout
+```plaintext
++------------------------------------------------+
+| HEADER | USER DATA | HEADER | USER DATA | ... |
++------------------------------------------------+
+```
+
+# Each Node Contains:
+```plaintext
+[Block Metadata][Actual User Memory]
 ```
