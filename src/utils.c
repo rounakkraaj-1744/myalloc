@@ -19,7 +19,7 @@ void print_heap_layout() {
         const char *status = curr->free ? "FREE" : "USED";
         printf("Status: %s | Size: %zu bytes\n", status, curr->size);
 
-        curr = (Node*)((char*)curr + sizeof(Node) + curr->size);
+        curr = (Node*)((char*)curr + sizeof(Node) + curr->size + sizeof(Footer));
 
         if ((char*)curr >= memory_pool + POOL_SIZE)
             break;

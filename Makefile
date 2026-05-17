@@ -17,4 +17,4 @@ stress:
 	./stress
 
 clean:
-	rm -f myalloc test_basic stress
+	rm -f pro test_basic stress

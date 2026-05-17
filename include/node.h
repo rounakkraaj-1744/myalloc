@@ -11,4 +11,9 @@ typedef struct Node {
     struct Node *next, *prev;
 } Node;
 
+typedef struct Footer {
+    size_t size;
+    int free;
+} Footer;
+
 #endif
