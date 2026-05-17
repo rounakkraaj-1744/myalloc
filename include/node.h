@@ -1,6 +1,6 @@
-#ifndef BLOCK_H
+#ifndef NODE_H
 
-#define BLOCK_H
+#define NODE_H
 
 #include <stddef.h>
 
@@ -8,7 +8,7 @@ typedef struct Node {
     size_t size;
     int free;
 
-    Node *next, *prev;
+    struct Node *next, *prev;
 } Node;
 
 #endif

@@ -4,7 +4,7 @@
 
 #include <node.h>
 
-extern Node *free_list[];
+extern Node *free_lists[];
 
 void insert_node(Node *node);
 void delete_node(Node *node);

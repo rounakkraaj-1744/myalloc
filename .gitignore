@@ -1,1 +1,6 @@
 *.out
+/.vscode
+pro
+/test_basic.dSYM
+test_basic
+/pro.dSYM
